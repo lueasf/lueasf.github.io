@@ -1,4 +1,4 @@
-url = "https://lueasf.github.io/open_calc.bat"
+url = "https://lueasf.github.io/script.bat"
 
 path = "C:\Users\Public\script.bat"
  
