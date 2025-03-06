@@ -1,2 +1,2 @@
 #!/bin/bash
-gnome-calculator
+gnome-calculator &
