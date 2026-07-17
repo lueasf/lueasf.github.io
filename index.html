@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucie C.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cstyle%3Epath%7Bfill:none;stroke:%231a1a1a;stroke-width:3;stroke-linejoin:round%7D@media(prefers-color-scheme:dark)%7Bpath%7Bstroke:%23ffffff%7D%7D%3C/style%3E%3Cpath d='M16 3 L29 28 H3 Z'/%3E%3C/svg%3E">
+
+    <meta name="description" content="Personal website of Lucie C.">
+    <meta property="og:title" content="Lucie C - Engineering & Research">
+    <meta property="og:description" content="Portfolio and blog">
+    <meta property="og:image" content="CAPTURE.png"> 
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <canvas id="background-canvas"></canvas>
+    <div class="noise-overlay"></div>
+    <div class="layout">
+        
+        <header class="sidebar">
+            <div class="identity">
+                <h1><a href="#" data-target="home" class="logo-link">Lucie C.</a></h1>
+                <p class="subtitle">Student, Engineer & Researcher</p>
+            </div>
+
+            <div class="controls">
+            <button id="theme-toggle" aria-label="Basculer thème">
+                
+                <svg class="icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+
+                <svg class="icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+
+            </button>
+        </div>
+        </header>
+
+        <main id="content-area">
+            
+            <section id="home" class="section active">
+                <div class="home-layout">
+                    <div class="home-content">
+                        <article class="prose">
+                            <h2>Curiosity Leads<a href="#" data-target="memento" class="secret-dot">.</a></h2>
+                            <br>
+
+                            <p><em>Who am I ? </em>An <a href="#" data-target="projects" class="contact-link">Engineer</a>, <a href="#" data-target="art" class="contact-link">Artist</a> & <a href="#" data-target="writing" class="contact-link">Reader</a>.</p>
+
+                            <p>Hi, I'm Lucie, a curious mind driven by abstraction.<br>
+                            <p>I recently graduated with an <a href="#" data-target="experience" class="contact-link">MEng</a> in Computer Science at Telecom Nancy (FR) and completed an ML Engineer internship at Samsung Electronics. This September, I am moving to Italy to pursue a MSc in Physics of Complex Systems, diving into research at Politecnico di Torino and SISSA.</p>
+                            <p>Lately, I also conducted part-time ML research in collaboration with researchers from CTTC (ES), taught high-schoolers maths for the National Olympiad and co-founded <a href="https://elrond.tech"  target="_blank" class="contact-link">Elrond AI</a>, a startup project that has since wrapped up.</p>
+
+                            <p>Over the last 5 years, I learned about the fundamentals of Maths, Physics, AI, CS, Cybersecurity and Deep Tech. For the next 5 years, I'm focusing on research in Physics of Complex Systems, Neuromorphic Computing and Epistemology.</p>
+
+                            <p>My goal is to understand deeply at all scales, fund research and explore nature.</p>
+                        </article>
+              
+                        <div class="timeline-mini">
+                            <div class="timeline-line">
+                                <span class="age">9</span>
+                                <span class="moment">Won an Art competition's highest honor.</span>
+                            </div>
+                            <div class="timeline-line">
+                                <span class="age">13</span>
+                                <span class="moment">Made a presentation on the Standard Model of particle physics.</span>
+                            </div>
+                            <div class="timeline-line">
+                                <span class="age">16</span>
+                                <span class="moment">Ranked 1st in Maths/Phys in my class & mastered Rubik's Cubes solving.</span>
+                            </div>
+                            <div class="timeline-line">
+                                <span class="age">17-20</span>
+                                <span class="moment">Life hit. Resilience.</span>
+                            </div>
+                            <div class="timeline-line">
+                                <span class="age">21</span>
+                                <span class="moment">Spent a month painting on the Pont des Arts in Paris.</span>
+                            </div>
+                            <div class="timeline-line">
+                                <span class="age">Now</span>
+                                <span class="moment">Working (Samsung), graduating (MEng) & winning (hackathons).</span>
+                            </div>
+                            <div class="timeline-line">
+                                <span class="age">23 Goal</span>
+                                <span class="moment">Begin my MSc in Physics and do more research.</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-link-wrapper">
+                            <a href="#" data-target="contact" class="contact-link">contact</a>
+                        </div>
+                    </div>
+
+                    <div class="manifesto-visual">
+                        <a href="https://github.com/lueasf/cmputing" target="_blank">
+                            <img src="eigenvalues.webp" alt="Eigenvalues animation">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experience" class="section experience-wide">
+                <header class="section-header">
+                    <h2>Experience</h2>
+                </header>
+
+                <div class="experience-grid">
+                    <div class="experience-col">
+                        <h3 class="subsection-title">Past Education</h3>
+                        <article class="edu-block">
+                            <div class="edu-header">
+                                <h3>Grande École d'Ingénieurs</h3>
+                                <span class="period">2023 - 2026</span>
+                            </div>
+                            <h4 class="school">Telecom Nancy, University of Lorraine, France</h4>
+                            <p class="narrative">Engineering Degree (MEng) in CS, AI/ML & Software Development.</p>
+                        </article>
+
+                        <article class="edu-block">
+                            <div class="edu-header">
+                                <h3>Erasmus Exchange in Barcelona</h3>
+                                <span class="period">Jan. 2025 - Jun. 2025</span>
+                            </div>
+                            <h4 class="school">Polytechnic University of Catalonia, Spain</h4>
+                            <p class="narrative">Master in Computer Science, specialized Machine Learning.</p>
+                        </article>
+
+                        <article class="edu-block">
+                            <div class="edu-header">
+                                <h3>French Preparatory classes (MPSI-MP*)</h3>
+                                <span class="period">2021 - 2023</span>
+                            </div>
+                            <h4 class="school">Buffon High School Paris, France</h4>
+                            <p class="narrative">Intense preparatory course in Mathematics and Physics.</p>
+                        </article>
+                    </div>
+
+                    <div class="experience-col">
+                        <h3 class="subsection-title">Professional</h3>
+
+                        <article class="edu-block">
+                            <div class="edu-header">
+                                <h3>AI/ML Engineer Intern</h3>
+                                <span class="period">Sept. 2025 - Aug. 2026</span>
+                            </div>
+                            <h4 class="school">Samsung Electronics France</h4>
+                            <p class="narrative">R&D, ML & AI Agents</p>
+                        </article>
+
+                        <article class="edu-block">
+                            <div class="edu-header">
+                                <h3>Research Assistant</h3>
+                                <span class="period">Oct. 2025 - Avril 2026</span>
+                            </div>
+                            <h4 class="school">CTTC Barcelona</h4>
+                            <p class="narrative">Part-time research on KANs and probabilistic forecasting.</p>
+                        </article>
+
+                        <article class="edu-block">
+                            <div class="edu-header">
+                                <h3>Data Scientist Intern</h3>
+                                <span class="period">Summer 2025</span>
+                            </div>
+                            <h4 class="school">Recommerce Group</h4>
+                            <p class="narrative">Deployed models to forecast prices of electronics.</p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="experience-grid">
+                    <div class="experience-col">
+                        <h3 class="subsection-title">Competitions</h3>
+                        <article class="edu-block">
+                            <div class="edu-header">
+                                <h3>Voice AI Hackathon</h3>
+                                <span class="period">Dec. 2025</span>
+                            </div>
+                            <h4 class="school">Gradium</h4>
+                            <p class="narrative">Ranked 1st. Built a voice conversation app.</p>
+                        </article>
+
+                        <article class="edu-block">
+                            <div class="edu-header">
+                                <h3>SWERC</h3>
+                                <span class="period">Nov. 2025</span>
+                            </div>
+                            <h4 class="school">ICPC</h4>
+                            <p class="narrative">Competed in an intense programming contest.</p>
+                        </article>
+
+                        <article class="edu-block">
+                            <div class="edu-header">
+                                <h3>FX Trading Challenge</h3>
+                                <span class="period">Sept. 2025</span>
+                            </div>
+                            <h4 class="school">Morgan Stanley</h4>
+                            <p class="narrative">Ranked 1st. Strategy optimized for Brexit context.</p>
+                        </article>
+                    </div>
+
+                    <div class="experience-col">
+                        <h3 class="subsection-title">Volunteering</h3>
+                        <article class="edu-block">
+                            <div class="edu-header">
+                                <h3>Math Olympiad Tutor</h3>
+                                <span class="period">Jan. 2026 - Present</span>
+                            </div>
+                            <h4 class="school">Saint Michel de Picpus</h4>
+                            <p class="narrative">Preparing 15+ students for the French MO.</p>
+                        </article>
+
+                        <article class="edu-block">
+                            <div class="edu-header">
+                                <h3>Secretary</h3>
+                                <span class="period">2024</span>
+                            </div>
+                            <h4 class="school">Hackin'TN - Cybersecurity Club</h4>
+                            <p class="narrative">Designed CTF challenges and led lectures on hacking.</p>
+                        </article>
+
+                        <article class="edu-block">
+                            <div class="edu-header">
+                                <h3>Vice Treasurer</h3>
+                                <span class="period">2024</span>
+                            </div>
+                            <h4 class="school">TNS - Junior Enterprise</h4>
+                            <p class="narrative">Learned to wear multiple hats and drive growth.</p>
+                        </article>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="projects" class="section">
+                <header class="section-header">
+                    <h2>Personal Projects</h2>
+                </header>
+
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/webtree.png" alt="webtree">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-name">webtree</h3>
+                            <p class="project-date">February 2026</p>
+                            <p class="project-description">Visual random walk based web crawler as a complex system.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/lueasf/webtree" target="_blank" class="project-link">GitHub</a>
+                                <a href="https://webtree-5zjg.onrender.com" target="_blank" class="project-link">Live Demo</a>
+                                <a href="" class="project-link blog-link" data-target="writing" data-src="posts/post4.svg">Blog Post</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/weathee.png" alt="weathee">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-name">weathee</h3>
+                            <p class="project-date">March 2026</p>
+                            <p class="project-description">Computational art that visualizes weather through eigenvalue analysis.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/lueasf/weathee" target="_blank" class="project-link">GitHub</a>
+                                <a href="https://weathee.onrender.com" target="_blank" class="project-link">Live Demo</a>
+                                <a href="" class="project-link blog-link" data-target="writing" data-src="posts/post4.svg">Blog Post</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image" style="background-color: #ffffff;">
+                            <img src="img/toxipep.png" alt="toxipep" style="object-fit: contain;">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-name">toxipep</h3>
+                            <p class="project-date">January 2026</p>
+                            <p class="project-description">Re-implementation of peptide toxicity prediction.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/lueasf/toxipep" target="_blank" class="project-link">GitHub</a>
+                                <a href="https://www.sciencedirect.com/science/article/pii/S200103702500203X" target="_blank" class="project-link">Original Paper</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image" style="background-color: #ffffff;">
+                            <img src="img/pinn.png" alt="FokkerPINN" style="object-fit: contain;">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-name">fokkerPINN</h3>
+                            <p class="project-date">October 2025</p>
+                            <p class="project-description">Physics-Informed Neural Networks for the Fokker–Planck Equation.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/lueasf/fpbypinn" target="_blank" class="project-link">GitHub</a>
+                                <a href="https://github.com/lueasf/fpbypinn/blob/main/doc.pdf" target="_blank" class="project-link">Report</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="writing" class="section">
+
+                <header class="section-header">
+                    <h2>Writing</h2>
+                </header>
+
+            <div class="writing-block" id="blog-section">
+                <h2 class="subsection-title">Notes & Blog</h2>
+                
+                <div id="blog-list-view">
+                    <ul class="blog-list">
+                        <li>
+                            <a href="" class="blog-link" data-src="posts/post4.svg">
+                                Complex Systems Intuitively
+                            </a>
+                            <span class="date">en - 2' read - Mar. 2026</span>
+                        </li>
+                        <li>
+                            <a href="" class="blog-link" data-src="posts/post3.svg">
+                                Discovery of Computational Biology
+                            </a>
+                            <span class="date">en - 5' read - Feb. 2026</span>
+                        </li>
+                        <li>
+                            <a href="" class="blog-link" data-src="posts/post1.svg">
+                                Introduction à l'apprentissage statistique
+                            </a>
+                            <span class="date">fr - 30' read - Sept. 2025</span>
+                        </li>
+                        <li>
+                            <a href="" class="blog-link" data-src="posts/post0.svg">
+                                What is CatBoost ?
+                            </a>
+                            <span class="date">en - 3' read - July 2025</span>
+                        </li>                        
+                    </ul>
+                </div>
+
+                <div id="blog-article-view" class="hidden">
+                    <button id="back-to-blog" class="nav-back">
+                        &lsaquo; &lsaquo; Back
+                    </button>
+
+                    <div class="pdf-download-container">
+                        <a id="pdf-download-btn" href="" download class="pdf-download-btn">
+                            Download PDF
+                        </a>
+                    </div>
+                    
+                    <br>
+
+                    <div class="typst-container">
+                        <object id="typst-viewer" type="image/svg+xml" data=""></object>
+                    </div>
+                </div>
+            </div>
+
+                <div class="writing-block">
+                    <h2 class="subsection-title">Bookshelf</h2>
+                    <p class="narrative">I read a lot of books (2/week) in 4 languages (FR, EN, ES, IT) such as :</p>
+                    <p class="narrative">- Scientific Essays (S. Serfaty, S. Mallat, D. Bessis, M. Du Sautoy)</p>
+                    <p class="narrative">- Academic textbooks (J. Baez, A. Zee, J. Tranquillo, C. Texier)</p>
+                    <p class="narrative">- Philosophy (JB. Ganascia, D. Graeber, A. Camus, F. Nietzsche)</p>
+                    <p class="narrative">- Economy (D. Kahneman, A. Bergeaud, J. P. Carse, L. Aschenbrenner)</p>
+                    <p class="narrative">- Biographies (G. Parisi, E. Snowden, S. Jobs, A. Lovelace)</p>
+                    <p class="narrative">- SF (I. Asimov, G. Orwell, A. Huxley, R. Bradbury)</p>
+                    <p class="narrative">- Novels/Theatre (I. Goncharov, F. Kafka, E. Ionesco, S. Zweig)</p>
+                </div>
+            </section>
+
+            <section id="art" class="section">
+                <header class="section-header">
+                    <h2>Paintings</h2>
+                </header>
+
+                <div class="gallery-container">
+                    
+                    <div class="frame">
+                        <img id="art-display" src="img/P1.JPG" alt="Art Piece">
+                        
+                        <button class="art-nav prev" id="art-prev" aria-label="Précédent">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                        </button>
+                        <button class="art-nav next" id="art-next" aria-label="Suivant">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </button>
+                    </div>
+
+                    <div class="art-info">
+                        <span class="art-counter" id="art-counter">01 / 04</span>
+                        <div class="art-text">
+                            <h3 id="art-title">Error - Processus</h3>
+                            <p id="art-desc">1st piece in the series. As many good ideas, it came from an error.</p>
+                        </div>
+                    </div>
+
+                    <br>
+                    <p class="narrative">In June 2024, I spent a month painting in Paris on the famous Pont des Arts.
+                    My goal was to paint in public, drawing inspiration from the city and its passersby.
+                    Hidden in each piece are tiny messages : personal reflections and snippets of Parisian life.</p>
+
+                </div>
+            </section>
+
+
+            <section id="memento" class="section memento-section">
+                <audio id="memento-audio" loop preload="auto">
+                    <source src="sound.mp3" type="audio/mpeg">
+                </audio>
+
+                <button id="sound-toggle" class="sound-toggle" aria-label="Toggle sound"></button>
+
+                <div class="memento-container">
+                    <div class="memento-content">
+                        <a href="#" data-target="home" class="memento-text">memento mori</a>
+
+                        <div class="timer-display" id="timer-display">00:00</div>
+
+                        <div class="timer-controls">
+                            <button id="timer-start" class="timer-btn timer-btn-primary">Start</button>
+                            <button id="timer-reset" class="timer-btn">Reset</button>
+                        </div>
+
+                        <div class="timer-add-time">
+                            <button class="timer-add-btn" data-add="300">+5 min</button>
+                            <button class="timer-add-btn" data-add="600">+10 min</button>
+                            <button class="timer-add-btn" data-add="900">+15 min</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section contact-section">
+                <div class="contact-content">
+                    <a href="lucie.correia@proton.me" class="contact-text">mail</a>
+                    <a href="https://github.com/lueasf" target="_blank" class="contact-text">github</a>
+                    <a href="https://linkedin.com/in/luciec-me" target="_blank" class="contact-text">linkedin</a>
+                    <a href="https://lvkomade.etsy.com" target="_blank" class="contact-text">etsy</a>
+
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <button id="scroll-top-btn" aria-label="Remonter en haut">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+        </svg>
+    </button>
+    <script src="script.js"></script>
+</body>
+</html>
