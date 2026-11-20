@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucie C.</title>
+    <link rel="stylesheet" href="fonts/computer-modern.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cstyle%3Epath%7Bfill:none;stroke:%231a1a1a;stroke-width:3;stroke-linejoin:round%7D@media(prefers-color-scheme:dark)%7Bpath%7Bstroke:%23ffffff%7D%7D%3C/style%3E%3Cpath d='M16 3 L29 28 H3 Z'/%3E%3C/svg%3E">
+
+    <meta name="description" content="Personal website of Lucie C.">
+    <meta property="og:title" content="Lucie C - Engineering & Research">
+    <meta property="og:description" content="Portfolio and creative projects">
+    <meta property="og:image" content="CAPTURE.png"> 
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    <div class="layout">
+        
+        <header class="sidebar">
+            <div class="identity">
+                <h1><a href="#" data-target="home" class="logo-link">Lucie C.</a></h1>
+                <p class="subtitle">Student, Engineer & Deep Tech Enthusiast</p>
+            </div>
+
+            <div class="controls">
+            <button id="theme-toggle" aria-label="Basculer thème">
+                
+                <svg class="icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+
+                <svg class="icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+
+            </button>
+        </div>
+        </header>
+
+        <main id="content-area">
+            
+            <section id="home" class="section active">
+                <div class="home-layout">
+                    <div class="home-content">
+                        <article class="prose">
+                            <h2>Curiosity Leads<a href="#" data-target="memento" class="secret-dot">.</a></h2>
+                            <br>
+
+                            <p>TL;DR - Who am I ? An <a href="https://github.com/lueasf" target="_blank" class="contact-link">Engineer</a>, <a href="#" data-target="creative-projects" class="contact-link">Artist</a> & <a href="https://substack.com/@lueasf" target="_blank" class="contact-link">Thinker</a>.</p>
+
+                            <p>Hi, I'm Lucie, a curious mind driven by abstraction. I'm fascinated by patterns that connect seemingly unrelated fields. My long-term goal is to understand deeply at all scales, enjoy arts and explore nature.</p>
+                            <p>I recently graduated with an MEng in Computer Science from Telecom Nancy (French Grande École d'Ingénieur) and completed an ML Engineer internship at Samsung Electronics. I'm currently in Italy, pursuing the International MSc in Physics of Complex Systems from Sorbonne, Politecnico di Torino & SISSA.</p>
+
+                            <p>Over the last 5 years, I learned about the fundamentals of Maths, Physics, CS & Cybersecurity. For the coming years, I'm focusing on Frontier AI, Statistical Physics & Active Matter. Recommendations upon request at <a href="#" data-target="contact" class="contact-link">contact</a>.</p>
+
+                            <p class="narrative">A few facts : <br>
+                            - I love books (essays) & museums but also hiking, diving & skiing. <br>
+                            - I lived in Paris, Barcelona, Trieste and soon Torino !! <br>
+                            - I'm a fellow of EuroTech Federation and a member of DWB. <br></p>
+                        </article>
+              
+                        <div class="timeline-mini">
+                            <div class="timeline-line">
+                                <span class="age">9</span>
+                                <span class="moment">Won an Art competition's highest honor.</span>
+                            </div>
+                            <div class="timeline-line">
+                                <span class="age">13</span>
+                                <span class="moment">Made a presentation on the Standard Model of particle physics.</span>
+                            </div>
+                            <div class="timeline-line">
+                                <span class="age">16</span>
+                                <span class="moment">Ranked 1st in Maths/Phys in my class & mastered Rubik's Cubes solving.</span>
+                            </div>
+                            <div class="timeline-line">
+                                <span class="age">17-20</span>
+                                <span class="moment">Life hit. Resilience.</span>
+                            </div>
+                            <div class="timeline-line">
+                                <span class="age">21</span>
+                                <span class="moment">Spent a month painting on the Pont des Arts in Paris.</span>
+                            </div>
+                            <div class="timeline-line">
+                                <span class="age">22</span>
+                                <span class="moment">Interned (Samsung), graduated (MEng) & won (hackathons).</span>
+                            </div>
+                            <div class="timeline-line">
+                                <span class="age">Now</span>
+                                <span class="moment">focusing on Physics of Complex Systems.</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="manifesto-visual">
+                        <a href="https://github.com/lueasf/cmputing" target="_blank">
+                            <img src="eigenvalues.webp" alt="Eigenvalues animation">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="writing" class="section">
+
+                <header class="section-header">
+                    <h2>Writing</h2>
+                </header>
+
+            </section>
+
+            <section id="creative-projects" class="section">
+                <header class="section-header">
+                    <h2>Creative Projects</h2>
+                </header>
+
+                <h3 class="gallery-title">Programming</h3>
+                <p style="text-align: center; margin: 0 auto 1.2rem;">more on <a href="https://github.com/lueasf" target="_blank" class="contact-link">github</a></p>
+
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/weathee.png" alt="weathee">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-name">Weathee</h3>
+                            <p class="project-date">March 2026</p>
+                            <p class="project-description">Computational art that visualizes weather through eigenvalue analysis.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/lueasf/weathee" target="_blank" class="project-link">GitHub</a>
+                                <a href="https://weathee.onrender.com" target="_blank" class="project-link">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image" style="background-color: #ffffff;">
+                            <img src="img/pinn.png" alt="FokkerPINN" style="object-fit: contain;">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-name">FokkerPINN</h3>
+                            <p class="project-date">October 2025</p>
+                            <p class="project-description">Physics-Informed Neural Networks for the Fokker–Planck Equation.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/lueasf/fpbypinn" target="_blank" class="project-link">GitHub</a>
+                                <a href="https://github.com/lueasf/fpbypinn/blob/main/doc.pdf" target="_blank" class="project-link">Report</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image" style="background-color: #ffffff;">
+                            <img src="img/toxipep.png" alt="toxipep" style="object-fit: contain;">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-name">Toxipep</h3>
+                            <p class="project-date">January 2026</p>
+                            <p class="project-description">Re-implementation of peptide toxicity prediction.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/lueasf/toxipep" target="_blank" class="project-link">GitHub</a>
+                                <a href="https://www.sciencedirect.com/science/article/pii/S200103702500203X" target="_blank" class="project-link">Original Paper</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/elrond.png" alt="Elrond - Musée Picasso Paris MVP">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-name">Elrond</h3>
+                            <p class="project-date">2025 - 2026</p>
+                            <p class="project-description">Real-time, voice-interactive AI solution, built to replace museum audio guides. It tarted as a startup project with a friend after winning the Gradium Voice AI Hackathon and I ended up pitching to several CEOs (Musée Picasso Paris, ...). Wrapped up by lack of time.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/ElrondLabs" target="_blank" class="project-link">GitHub (Currently private)</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-name">Telecom Nancy CTF 2024</h3>
+                            <p class="project-date">2024</p>
+                            <p class="project-description">I made 10+ challenges, from easy to complex, for the Annual Telecom Nancy CTF organized by Hackin'TN.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/lueasf/CTF-challs" target="_blank" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-name">ARP spoofing Lecture</h3>
+                            <p class="project-date">2024</p>
+                            <p class="project-description">I made a lecture on computer networks, followed by a live ARP spoofing demo with a Windows VM and a CLI.</p>
+                            <div class="project-links">
+                                <a href="video/arp-spoofing.mp4" target="_blank" class="project-link">Video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="section-divider">
+
+                <h3 class="gallery-title" style="margin-top: 3rem;">Writing</h3>
+                <p style="text-align: center; margin: 0 auto 1.2rem;">more on <a href="https://substack.com/@lueasf" target="_blank" class="contact-link">substack</a></p>
+
+                <p class="narrative">I write notes on structured ideas from my mind & I draw to make it cooler.</p>
+
+                <div class="projects-grid substack-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://substackcdn.com/image/fetch/$s_!HRfu!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.4866:0.5489:1.27!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff44841b8-0685-4ff1-8c54-6c3abd5bcafe_2140x1292.jpeg" alt="Explaining the AI Era to my grandparents">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-name">Explaining the AI Era to my grandparents</h3>
+                            <p class="project-date">November 2026</p>
+                            <div class="project-links">
+                                <a href="https://lueasf.substack.com/p/explaining-the-ai-era-to-my-grandparents" target="_blank" class="project-link">Read on Substack</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://substackcdn.com/image/fetch/$s_!5CQ0!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.5486:0.5564:1.48!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff8a227d5-e447-4aa1-93b6-2a91fdc89c75_2360x1640.png" alt="Stay fundamentally curious: 55 books">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-name">Stay fundamentally curious: 55 books</h3>
+                            <p class="project-date">November 2026</p>
+                            <div class="project-links">
+                                <a href="https://lueasf.substack.com/p/stay-fundamentally-curious-55-books" target="_blank" class="project-link">Read on Substack</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="section-divider">
+
+                <h3 class="gallery-title" style="margin-top: 3rem;">Painting</h3>
+                <p style="text-align: center; margin: 0 auto 1.2rem;">more on <a href="https://lvkomade.etsy.com" target="_blank" class="contact-link">etsy</a></p>
+
+                <p>Across arts, I'm drawn to structured chaos, apocalypse and lyrical abstraction.</p>
+
+                <div class="gallery-container">
+
+                    <div class="frame">
+                        <img id="art-display" src="img/P1.JPG" alt="Art Piece">
+
+                        <button class="art-nav prev" id="art-prev" aria-label="Précédent">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                        </button>
+                        <button class="art-nav next" id="art-next" aria-label="Suivant">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </button>
+                    </div>
+
+                    <div class="art-info">
+                        <span class="art-counter" id="art-counter">01 / 04</span>
+                        <div class="art-text">
+                            <h3 id="art-title">Error - Processus</h3>
+                            <p id="art-desc">1st piece in the series. As many good ideas, it came from an error.</p>
+                        </div>
+                    </div>
+
+                    <br>
+                    <p class="narrative">I've been painting since i'm 7. But, in June 2024, I spent a month painting in Paris on the famous Pont des Arts.
+                    My goal was to paint in public, drawing inspiration from the city and its passersby.
+                    Hidden in each piece are tiny messages : personal reflections and snippets of Parisian life.</p>
+
+                </div>
+
+                <hr class="section-divider">
+
+                <h3 class="gallery-title" style="margin-top: 3rem;">Photography</h3>
+
+                <div class="projects-grid" id="album-grid">
+                    <div class="project-card album-card" data-series="dreams">
+                        <div class="project-image">
+                            <img src="img/dreams/IMG_1202.JPG" alt="Dreams">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-name">Dreams</h3>
+                            <p class="project-description">This series is made of photos that feel like time stopped in a dream.</p>
+                            <div class="project-links">
+                                <button type="button" class="project-link album-open-btn" data-series="dreams">View album</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card album-card" data-series="people">
+                        <div class="project-image">
+                            <img src="img/people/IMG_0695.jpg" alt="People">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-name">People</h3>
+                            <p class="project-description">I love capturing the present moment with people. Photographers like Annie Leibovitz and Helmut Newton inspire me.</p>
+                            <div class="project-links">
+                                <button type="button" class="project-link album-open-btn" data-series="people">View album</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card album-card" data-series="places">
+                        <div class="project-image">
+                            <img src="img/places/IMG_5397.jpeg" alt="Places">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-name">Places</h3>
+                            <p class="project-description">Places I'd love to visit again.</p>
+                            <div class="project-links">
+                                <button type="button" class="project-link album-open-btn" data-series="places">View album</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card album-card" data-series="urbex">
+                        <div class="project-image">
+                            <img src="img/urbex/IMG_9856.JPG" alt="Urbex">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-name">Urbex</h3>
+                            <p class="project-description">I've always loved exploring abandoned places - there's something surreal about them.</p>
+                            <div class="project-links">
+                                <button type="button" class="project-link album-open-btn" data-series="urbex">View album</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="album-viewer hidden" id="album-viewer">
+                    <button id="album-close" class="nav-back">&lsaquo; &lsaquo; Back to albums</button>
+
+                    <div class="gallery-container">
+                        <div class="frame">
+                            <img id="album-display" src="" alt="">
+                        </div>
+
+                        <div class="art-info">
+                            <span class="art-counter" id="album-counter"></span>
+                            <div class="art-text">
+                                <h3 id="album-title"></h3>
+                                <p id="album-desc"></p>
+                            </div>
+                        </div>
+
+                        <div class="album-controls">
+                            <button id="album-prev" class="timer-btn">&lsaquo; Previous</button>
+                            <button id="album-next" class="timer-btn timer-btn-primary">Next &rsaquo;</button>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="section-divider">
+
+                <h3 class="gallery-title" style="margin-top: 3rem;">Videos</h3>
+                <p style="text-align: center; margin: 0 auto 1.2rem;">more on <a href="https://www.youtube.com/@ITeaser_/featured" target="_blank" class="contact-link">YouTube</a></p>
+
+                <p class="narrative">In January 2024, I created a YouTube channel called <strong>ITeaser</strong> with two friends from my engineering school. We interviewed 6 students about their computer science projects, handling the filming, editing and communication ourselves. It was a great experience.</p>
+
+                <div class="video-grid">
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/XADZJ_bX5j4" title="ITeaser video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/bedxPAZ9VME" title="ITeaser video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/Yhnm8do1yhs" title="ITeaser video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section id="memento" class="section memento-section">
+                <audio id="memento-audio" loop preload="auto">
+                    <source src="sound.mp3" type="audio/mpeg">
+                </audio>
+
+                <button id="sound-toggle" class="sound-toggle" aria-label="Toggle sound"></button>
+
+                <div class="memento-container">
+                    <div class="memento-content">
+                        <a href="#" data-target="home" class="memento-text">memento mori</a>
+
+                        <div class="timer-display" id="timer-display">00:00</div>
+
+                        <div class="timer-controls">
+                            <button id="timer-start" class="timer-btn timer-btn-primary">Start</button>
+                            <button id="timer-reset" class="timer-btn">Reset</button>
+                        </div>
+
+                        <div class="timer-add-time">
+                            <button class="timer-add-btn" data-add="300">+5 min</button>
+                            <button class="timer-add-btn" data-add="600">+10 min</button>
+                            <button class="timer-add-btn" data-add="900">+15 min</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section contact-section">
+                <div class="contact-content">
+                    <a class="contact-text">lucie.correia@proton.me</a>
+                    <a href="https://github.com/lueasf" target="_blank" class="contact-text">github</a>
+                    <a href="https://linkedin.com/in/luciec-me" target="_blank" class="contact-text">linkedin</a>
+                    <a href="https://substack.com/@lueasf" target="_blank" class="contact-text">substack</a>
+                    <a href="https://lvkomade.etsy.com" target="_blank" class="contact-text">etsy</a>
+
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <button id="scroll-top-btn" aria-label="Remonter en haut">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+        </svg>
+    </button>
+    <script src="script.js?v=2"></script>
+</body>
+</html>
